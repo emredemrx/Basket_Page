@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QrProje</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></head>
+    <script src="https://kit.fontawesome.com/98fe4bdeef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/basket.css">
+    
+    <style>
+        /*  kod yardımcısı css kodları
+            sonradan silinecek */
+        .borderr{
+            border:1px solid red;
+        }
+        .bordery{
+            border:2px solid blue;
+        }
+    </style>
+<body>
+<div class="container basketArea">
+    <div class="cd-popup" role="alert">
+        <div class="cd-popup-container">
+            <!-- <div class='col-12 alert-Main'>
+                <i class='fas fa-check-circle'></i>
+            </div> -->
+            <div class='col-12 alert-Text'>
+                <span>10. Order Confirmation has been given for the table. When the waiter arrives, he will ask for confirmation for the basket.</span>
+            </div>
+            <a href="#0" class="cd-popup-close img-replace">Close</a>
+        </div>
+    </div>
+    <div class="row mb-2 menuItemsTitle">
+        <div class="col-12"><span>Basket</span></div>
+    </div>
+    <div class="basketNavigation">
+        <div class="basketMainMenu">
+            <a href="xxxxxxxxxxxxxxxxxxxxxx">
+                <div class="mainMenu boxShadow">
+                    <span class="menuIcon"><i class="fas fa-book-open"></i></span>
+                </div>
+                <span>Main Menu</span>
+            </a>
+        </div>
+        <div class="basketPrice" id="a"><i class="fas fa-check-circle"></i><span>115,15 TL</span></div>
+        <div class="basketMainMenu">
+            <a href="xxxxxxxxxxxxxxxxxxxxxx">
+                <div class="mainMenu boxShadow">
+                    <span class="menuIcon"><i class="fas fa-user-clock"></i></span>
+                </div>
+                <span>Garson Çağır</span>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 productList" data-value="0" data-productlist="h0020">
+            <ul>
+                <li class="productImg">
+                    <img src="image/indir.jpg" alt="">
+                </li>
+                <li class="text">
+                    <p class="productTitle">Füme Etli Burger 1</p>
+                    <p class="productExplanation">120 gr. hamburger köfte, füme et, mor soğan, domates</p>
+                </li>
+                <li class="productAddprice basket-product-delete"  data-product="h0020">
+                    <div class="productAddIcon">
+                        <i class="fas fa-minus-circle"></i>
+                    </div>
+                    <div class="productPrice">
+                        <span>35,25<i class="fas fa-lira-sign"></i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 productList" data-value="0" data-productlist="h0021">
+            <ul>
+                <li class="productImg">
+                    <img src="image/hamburgerMenuList.jpeg" alt="">
+                </li>
+                <li class="text">
+                    <p class="productTitle">Füme Etli Burger 2</p>
+                    <p class="productExplanation">120 gr. hamburger köfte, füme et, mor soğan, domates</p>
+                </li>
+                <li class="productAddprice basket-product-delete" data-product="h0021">
+                    <div class="productAddIcon">
+                        <i class="fas fa-minus-circle"></i>
+                    </div>
+                    <div class="productPrice">
+                        <span>35,25<i class="fas fa-lira-sign"></i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 basketDescription">
+            <span>After confirming the cart, the waiter will ask for confirmation!!</span>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/basket.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</html>
